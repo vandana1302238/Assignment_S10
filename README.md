@@ -16,7 +16,8 @@ To train custom RESNET for CIFAR10 dataset
 repo contains all the code required during training in different modules
    - custom_resnet.py -> Contains the architecture
    - uitls.py -> contains supportive functions for code
-   - main.ipynb -> contains the execution of code 
+   - lr_finder.py -> functions to find min max lr rate
+   - S10.ipynb -> contains the execution of code 
 
 
 # Model Parameters
@@ -37,6 +38,6 @@ The Model architecture
 
 # Results
 
-  Test Accuracy : 89.74%
-  Train Accuracy : 88.48%
+  Test Accuracy : 90%
+  Train Accuracy : 88.15%
 
